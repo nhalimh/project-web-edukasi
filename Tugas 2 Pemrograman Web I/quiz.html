@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-blue text-center">
+      <div class="container">
+        <h2 class="text-secondary display-3 my-4">CSS Quiz</h2>
+      </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none text-center">
+      <div class="container lead">
+        <p>Hasil <span class="text-red display-4 p-3">0%</span></p>
+      </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-secondary">
+      <div class="container">
+        <h2 class="my-5 text-white">On with the questions....</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">1. Selektor adalah katakunci dan simbol yang digunakan pada CSS untuk menyeleksi atau memilih elemen HTML.</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label">Benar</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label">Salah</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. Seperti fungsi RGB, fungsi HSL juga memiliki nilai alpha untuk menyatakan nilai transparansi warna. Nilai alpha dapat diberikan dari 0.0~1.0. Semakin mendekati angka satu, warnanya akan semakin menghilang dan semakin
+              mendekati angka nol, warnanya akan semakin terang.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-check-label">Benar</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-check-label">Salah</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">3. Selektor class adalah selektor yang memilih elemen berdasarkan nama class yang diberikan. Selektor class dibuat dengan tanda titik di depannya.</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" checked />
+              <label class="form-check-label">Benar</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B" />
+              <label class="form-check-label">Salah</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. Fungsi RGB memiliki tiga parameter, yaitu nilai untuk merah (red), hijau (green), dan biru (blue). Nilai yang diberikan pada parameter tersebut dimulai dari angka 0~255. Semakin besar nilai yang diberikan, semakin lemah
+              nilai warna tersebut.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-check-label">Benar</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-check-label">Salah</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead font-weight-normal">5. Selektor ID hampir sama dengan class. Bedanya, ID bersifat unik. Hanya boleh digunakan oleh satu elemen saja. Selektor ID ditandai dengan tanda pagar (#) di depannya.</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="A" checked />
+              <label class="form-check-label">Benar</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="B" />
+              <label class="form-check-label">Salah</label>
+            </div>
+          </div>
+
+          <div class="text-color">
+            <input type="submit" class="btn btn-light" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="appquiz.js"></script>
+  </body>
+</html>
